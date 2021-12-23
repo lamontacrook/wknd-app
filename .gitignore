@@ -1,0 +1,47 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+node/
+node_modules/
+/.pnp
+.pnp.js
+package-lock.json
+
+# testing
+/coverage
+/.vscode
+
+# production
+build/
+target/
+
+# misc
+.DS_Store
+.env.local
+.env.development
+.env.test
+.env.production
+.env.development-ruben
+.env.test.local
+.env.production.local
+.env
+.env-bkup
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+#*.iml
+
+#.classpath
+#.project
+#.settings/
+#aem-guides-wknd-pwa.all/.classpath
+#aem-guides-wknd-pwa.all/.project
+#aem-guides-wknd-pwa.all/.settings/
+#aem-guides-wknd-pwa.ui.apps/.classpath
+#aem-guides-wknd-pwa.ui.apps/.project
+#aem-guides-wknd-pwa.ui.apps/.settings/
+#aem-guides-wknd-pwa.ui.content/.classpath
+#aem-guides-wknd-pwa.ui.content/.project
+#aem-guides-wknd-pwa.ui.content/.settings/
